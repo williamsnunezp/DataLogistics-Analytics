@@ -1,0 +1,9 @@
+{
+    "name": "Entorno con PostgreSQL",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "devcontainer",
+    "workspaceFolder": "/workspaces/Data-Logistics-Analytics-Pipeline",
+    "forwardPorts": [5432],
+    "shutdownAction": "stopCompose"
+}
+
