@@ -87,7 +87,7 @@ Desarrollo:
 
 ### 5️⃣ Integración con Power BI (Objetivo Final)
 
-Estado: **En Preparación.**
+<img src="imagenes/Dashboard.png" alt="Texto alternativo" width="750"/>
 
 Tareas previstas:
 - Conexión directa a PostgreSQL y validación del esquema.
@@ -96,19 +96,31 @@ Tareas previstas:
 - Implementación de **medidas y KPIs** con DAX.
 - Construcción del *dashboard* analítico de **tiempos logísticos**.
 
-📌 Estado: En preparación.
+📌 Estado: Finalizado.
 
 ---
 
 ## 📁 Estructura del Repositorio
-
+```
 Data-Logistics-Analytics-Pipeline/
 │
-├── data/              # Dataset limpio y dividido (Excel)
-├── pythonFiles/       # Scripts de conexión y carga (psycopg2)
-├── sqlFiles/          # Consultas SQL, creación de esquema y análisis
-├── imagenes/          # Imágenes de documentación
-├── powerbi/           # (Pendiente) Archivo Power BI (.pbix)
-└── README.md          # Documentación principal
+├── data/
+│   └── Dataset limpio y dividido (Excel)
+│
+├── pythonFiles/
+│   └── Scripts de conexión y carga (psycopg2)
+│
+├── sqlFiles/
+│   └── Consultas SQL, creación de esquema y análisis
+│
+├── imagenes/
+│   └── Imágenes de documentación
+│
+├── powerbi/
+│   └── Archivo Power BI (.pbix)
+│
+└── README.md
+    └── Documentación principal
+```
 ---
 
