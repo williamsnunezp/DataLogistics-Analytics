@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "8d12fd947dd3c15c6afc",
+  "position": {
+    "x": 16.171476392300839,
+    "y": 317.20972923359341,
+    "z": 10002,
+    "height": 389.35939313770484,
+    "width": 396.82315147261289,
+    "tabOrder": 10002
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "public entregas"
+                    }
+                  },
+                  "Property": "Franjahoraria"
+                }
+              },
+              "queryRef": "public entregas.Franjahoraria",
+              "nativeQueryRef": "Franjahoraria",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "public entregas"
+                        }
+                      },
+                      "Property": "VALOR_PAGADO"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(public entregas.VALOR_PAGADO)",
+              "nativeQueryRef": "Suma de VALOR_PAGADO"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "public entregas"
+                      }
+                    },
+                    "Property": "VALOR_PAGADO"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "legend": [
+        {
+          "properties": {
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BottomCenter'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Valor total $ por franja horaria'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

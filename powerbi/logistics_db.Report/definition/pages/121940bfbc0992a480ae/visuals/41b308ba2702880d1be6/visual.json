@@ -1,0 +1,84 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "41b308ba2702880d1be6",
+  "position": {
+    "x": 553.45829281080137,
+    "y": 81.936535946487368,
+    "z": 5000,
+    "height": 102.04324724109073,
+    "width": 258.29696957901092,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "NativeVisualCalculation": {
+                  "Language": "dax",
+                  "Expression": "BLANK()",
+                  "Name": "Suma en ejecución"
+                }
+              },
+              "queryRef": "select",
+              "nativeQueryRef": "Suma en ejecución",
+              "hidden": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "Rentabilidad_$/C"
+                }
+              },
+              "queryRef": "TablaMedidas.Rentabilidad_C/h",
+              "nativeQueryRef": "Rentabilidad_$/C",
+              "format": "\\$ #,0.00;-\\$ #,0.00;\\$ #,0.00"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "NativeVisualCalculation": {
+                "Language": "dax",
+                "Expression": "BLANK()",
+                "Name": "Suma en ejecución"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f7e7fb9f6a96d9a66075",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "TablaMedidas"
+              }
+            },
+            "Property": "Rentabilidad_$/C"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

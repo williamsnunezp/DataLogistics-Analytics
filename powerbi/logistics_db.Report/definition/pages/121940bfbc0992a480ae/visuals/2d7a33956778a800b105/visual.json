@@ -1,0 +1,84 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "2d7a33956778a800b105",
+  "position": {
+    "x": 1038.1637172059823,
+    "y": 80.342110208345332,
+    "z": 8000,
+    "height": 102.04324724109073,
+    "width": 212.05862317289166,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "NativeVisualCalculation": {
+                  "Language": "dax",
+                  "Expression": "BLANK()",
+                  "Name": "Suma en ejecución"
+                }
+              },
+              "queryRef": "select",
+              "nativeQueryRef": "Suma en ejecución",
+              "hidden": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "TiempoPromedioViaje"
+                }
+              },
+              "queryRef": "TablaMedidas.TiempoPromedioViaje",
+              "nativeQueryRef": "Tiempo promedio viaje",
+              "displayName": "Tiempo promedio viaje"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "NativeVisualCalculation": {
+                "Language": "dax",
+                "Expression": "BLANK()",
+                "Name": "Suma en ejecución"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "10752437043ea5aa9e02",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "TablaMedidas"
+              }
+            },
+            "Property": "TiempoPromedioViaje"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

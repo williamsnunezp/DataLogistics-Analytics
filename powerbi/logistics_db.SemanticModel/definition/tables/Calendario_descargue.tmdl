@@ -1,0 +1,49 @@
+table Calendario_descargue
+	lineageTag: 4a9241a3-325c-4430-a383-2d6cdbb6cd2b
+
+	column Date
+		formatString: General Date
+		lineageTag: 013dadce-324b-40f2-9b04-84875cd3493d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variación
+			isDefault
+			relationship: 1682f96f-ed3f-4ddd-a343-3a89a5f9aefd
+			defaultHierarchy: LocalDateTable_0bcf703b-0857-4a33-a1e4-ef201919026b.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia = ```
+			DAY(Calendario_descargue[Date]) 
+			```
+		formatString: 0
+		lineageTag: 0104e95c-81dd-4cfa-bde9-39aa67f098f0
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia_nomb = FORMAT(Calendario_descargue[Date],"ddd")
+		lineageTag: 887299d3-32aa-4eed-9a8e-f64836a33912
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column NumeroDiaSemana = WEEKDAY ('Calendario_descargue'[Date], 2 )
+		formatString: 0
+		lineageTag: 5a44ff91-9de0-46ba-a2f6-8cc372531076
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario_descargue = calculated
+		mode: import
+		source =
+				
+				CALENDAR (
+				    MIN ( 'public entregas'[FECHALLEGADADESCARGUE]),
+				    MAX ( 'public entregas'[FECHALLEGADADESCARGUE]))
+
+	annotation PBI_Id = ee046594d5db4f20ad1a1d00fa5ed358
+

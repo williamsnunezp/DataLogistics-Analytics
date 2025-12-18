@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "cfd05a698eb07ce99a52",
+  "position": {
+    "x": 245.06006532948194,
+    "y": 216.4489917123343,
+    "z": 10000,
+    "height": 78.369462516534838,
+    "width": 195.30167643009474,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "public productos"
+                    }
+                  },
+                  "Property": "UNID_MEDIDA"
+                }
+              },
+              "queryRef": "public productos.UNID_MEDIDA",
+              "nativeQueryRef": "U/M PRODUCTO",
+              "active": true,
+              "displayName": "U/M PRODUCTO"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "637b12b2bcba47724306",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "public productos"
+              }
+            },
+            "Property": "UNID_MEDIDA"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+table TablaMedidas
+	lineageTag: 47c8aba8-5eb5-4c17-8a0a-de3ad0a99e27
+
+	measure HorasViajeDestinoCiudad =
+			
+			CALCULATE (
+			    AVERAGE ( 'public entregas'[HORAS_VIAJE] ),
+			    ALLEXCEPT ( 'public entregas', 'public ciudad_destino'[CIUDAD] )
+			)
+		lineageTag: dcea1314-b32b-43f8-b766-d9af2212d40c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure HorasViajeDestinoDepart =
+			
+			CALCULATE (
+			    AVERAGE ( 'public entregas'[HORAS_VIAJE] ),
+			    ALLEXCEPT ( 'public entregas', 'public ciudad_destino'[DEPARTAMENTO] )
+			)
+		lineageTag: 2508bfc4-fa06-477f-97fa-5d1ceed26401
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Rentabilidad$/h =
+			
+			DIVIDE (
+			    SUM ( 'public entregas'[VALOR_PAGADO] ),
+			    SUM ( 'public entregas'[HORAS_VIAJE] ),
+			    0
+			)
+		lineageTag: 8e304c47-41ed-46e3-b947-1f9707da879d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TiempoEsperaPromedio =
+			
+			AVERAGEX('public entregas', 'public entregas'[HORAS_ESPERA_CARGUE] + 'public entregas'[HORAS_ESPERA_DESCARGUE] )
+		lineageTag: 4898f8f2-210c-4207-a606-191755f5a105
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TiempoPromedioViaje =
+			
+			AVERAGE ( 'public entregas'[HORAS_VIAJE] )
+		lineageTag: 39f1b187-13f7-4b8c-aa54-929eb5fea9b6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TotalViajesporplaca =
+			
+			CALCULATE (
+			    DISTINCTCOUNT ( 'public entregas'[COD_PLACA] )
+			)
+		formatString: 0
+		lineageTag: 5c458bf4-4d2c-4dc6-b372-52e1425f6553
+
+	measure CantidadViajePorHoraViaje =
+			
+			DIVIDE (
+			    SUM ( 'public entregas'[CANTIDAD] ),
+			    SUM ( 'public entregas'[HORAS_VIAJE] ),
+			    0
+			)
+		lineageTag: a2235a5a-e6d1-4ea5-9e09-807a91cf0394
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TiempoTotal = SUMX( 'public entregas' ,'public entregas'[HORAS_VIAJE]+'public entregas'[HORAS_CARGUE]+'public entregas'[HORAS_DESCARGUE]+'public entregas'[HORAS_ESPERA_DESCARGUE] + 'public entregas'[HORAS_ESPERA_CARGUE])
+		lineageTag: f9ee523d-3bdc-4847-9bf2-8f2252104582
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AVGTiempoActivo = AVERAGEX( 'public entregas' ,'public entregas'[HORAS_CARGUE]+'public entregas'[HORAS_DESCARGUE])
+		lineageTag: cb634073-0729-4b3c-9501-2bcd771759df
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AVGTiempoEspera = AVERAGEX( 'public entregas' ,'public entregas'[HORAS_ESPERA_DESCARGUE] + 'public entregas'[HORAS_ESPERA_CARGUE])
+		lineageTag: 025a0b22-e7b0-4721-aad0-bb6dbb040206
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Rentabilidad_$/C =
+			
+			DIVIDE (
+			    SUM ( 'public entregas'[VALOR_PAGADO] ),
+			    SUM ( 'public entregas'[CANTIDAD] ),
+			    0
+			)
+		lineageTag: 5f7df139-b0af-49c4-8cfb-2c9f9334fe39
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Value
+		formatString: 0
+		lineageTag: 7a57f39d-571f-41ee-bc1d-261ad95a4910
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TablaMedidas = calculated
+		mode: import
+		source = FILTER(GENERATESERIES(1,0,1), FALSE)
+
+	annotation PBI_Id = d5894bdcf77d4be5aa699ba6016ac19b
+

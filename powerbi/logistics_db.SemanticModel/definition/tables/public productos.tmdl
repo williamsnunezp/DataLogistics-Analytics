@@ -1,0 +1,39 @@
+table 'public productos'
+	lineageTag: 9fd78a9a-515f-42bc-98ed-10e19cde8ccd
+
+	column COD_PRODUCTO
+		dataType: int64
+		formatString: 0
+		lineageTag: fab4170e-fc45-4df8-9e1e-a4e58fca4dc7
+		summarizeBy: none
+		sourceColumn: COD_PRODUCTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCTO
+		dataType: string
+		lineageTag: 8432a9a5-cff8-459a-80e3-7f2e8fef99bd
+		summarizeBy: none
+		sourceColumn: PRODUCTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNID_MEDIDA
+		dataType: string
+		lineageTag: aeadf885-64f5-4f17-bd86-6c1c09792ebb
+		summarizeBy: none
+		sourceColumn: UNID_MEDIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'public productos' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("127.0.0.1", "logistics_db"),
+				    public_productos = Origen{[Schema="public",Item="productos"]}[Data]
+				in
+				    public_productos
+
+	annotation PBI_ResultType = Table
+

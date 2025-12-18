@@ -1,0 +1,54 @@
+table 'public ciudad_destino'
+	lineageTag: 7d424901-a319-479f-b05a-1110f04a2eb2
+
+	column COD_DESCARGUE
+		dataType: int64
+		formatString: 0
+		lineageTag: 27d68cbe-487e-4483-aa1c-6564ec61ed6f
+		summarizeBy: none
+		sourceColumn: COD_DESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CIUDAD
+		dataType: string
+		lineageTag: 484dc709-ba85-4834-932c-88d8674274ae
+		summarizeBy: none
+		sourceColumn: CIUDAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEPARTAMENTO
+		dataType: string
+		lineageTag: 0df203f3-58ec-40d8-b0a6-5e1fc390b1c7
+		summarizeBy: none
+		sourceColumn: DEPARTAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.entregas'
+		dataType: string
+		lineageTag: 9e8528f4-f681-4575-a910-23aa916056e3
+		summarizeBy: none
+		sourceColumn: public.entregas
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'public ciudad_destino' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("127.0.0.1", "logistics_db"),
+				    public_ciudad_destino = Origen{[Schema="public",Item="ciudad_destino"]}[Data],
+				    #"Ejecutar script de Python" = Python.Execute("# 'dataset' contiene los datos de entrada para este script#(lf)#(lf)import os, pandas, matplotlib#(lf)import pandas as pd#(lf)#(lf)# Lista de departamentos#(lf)departamentos = [#(lf)    ""ANTIOQUIA"",""ATLANTICO"",""BOLIVAR"",""BOYACA"",""CALDAS"",""CAQUETA"",""CASANARE"",#(lf)    ""CAUCA"",""CESAR"",""CHOCO"",""CORDOBA"",""CUNDINAMARCA"",""GUANIA"",""GUAVIARE"",#(lf)    ""HUILA"",""LA GUAJIRA"",""MAGDALENA"",""META"",""NARINO"",""NORTE DE SANTANDER"",#(lf)    ""PUTUMAYO"",""QUINDIO"",""RISARALDA"",""SAN ANDRES Y PROVIDENCIA"",""SANTANDER"",#(lf)    ""SUCRE"",""TOLIMA"",""VALLE DEL CAUCA"",""VAUPES"",""VICHADA"",""AMAZONAS"",""BOGOTA D.C.""#(lf)]#(lf)#(lf)# Ordenar de mayor a menor longitud (para evitar reemplazos parciales)#(lf)departamentos = sorted(departamentos, key=lambda x: len(x), reverse=True)#(lf)#(lf)# Convertir columna a mayúsculas#(lf)dataset['CIUDAD_DEPART'] = dataset['CIUDAD_DEPART'].str.upper()#(lf)#(lf)# Función para separar ciudad y departamento#(lf)def separar_ciudad_departamento(texto):#(lf)    texto_original = texto#(lf)    depto_encontrado = None#(lf)    #(lf)    for depto in departamentos:#(lf)        if depto in texto_original:#(lf)            depto_encontrado = depto#(lf)            # Eliminar solo la primera ocurrencia del departamento#(lf)            texto_original = texto_original.replace(depto, """", 1)#(lf)            break  # detenerse en el primer match#(lf)    #(lf)    ciudad = texto_original.strip()#(lf)#(lf)    # Si no se encontró departamento, marcarlo explícitamente#(lf)    if depto_encontrado is None:#(lf)        depto_encontrado = ""SIN DEPARTAMENTO""#(lf)#(lf)    return pd.Series([ciudad, depto_encontrado])#(lf)#(lf)# Aplicar la función y crear dos columnas nuevas#(lf)dataset[['CIUDAD', 'DEPARTAMENTO']] = dataset['CIUDAD_DEPART'].apply(separar_ciudad_departamento)",[dataset=public_ciudad_destino]),
+				    dataset = #"Ejecutar script de Python"{[Name="dataset"]}[Value],
+				    #"Tipo cambiado" = Table.TransformColumnTypes(dataset,{{"COD_DESCARGUE", Int64.Type}, {"CIUDAD_DEPART", type text}, {"public.entregas", type text}, {"CIUDAD", type text}, {"DEPARTAMENTO", type text}}),
+				    #"Columnas reordenadas" = Table.ReorderColumns(#"Tipo cambiado",{"COD_DESCARGUE", "CIUDAD_DEPART", "CIUDAD", "DEPARTAMENTO", "public.entregas"}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columnas reordenadas",{"CIUDAD_DEPART"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

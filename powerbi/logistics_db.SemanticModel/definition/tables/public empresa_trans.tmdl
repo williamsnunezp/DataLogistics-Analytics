@@ -1,0 +1,31 @@
+table 'public empresa_trans'
+	lineageTag: d4a1ee60-0da7-4e37-88e4-f8c91c2156f5
+
+	column COD_EMPRESATRANSPORTE
+		dataType: int64
+		formatString: 0
+		lineageTag: c9868564-875b-45a4-ac96-d5a9488b14cd
+		summarizeBy: none
+		sourceColumn: COD_EMPRESATRANSPORTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMBRE
+		dataType: string
+		lineageTag: c6690a5e-7f0f-4a72-8b95-d552b401d123
+		summarizeBy: none
+		sourceColumn: NOMBRE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'public empresa_trans' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("127.0.0.1", "logistics_db"),
+				    public_empresa_trans = Origen{[Schema="public",Item="empresa_trans"]}[Data]
+				in
+				    public_empresa_trans
+
+	annotation PBI_ResultType = Table
+

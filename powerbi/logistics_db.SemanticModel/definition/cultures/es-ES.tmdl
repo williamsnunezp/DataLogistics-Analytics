@@ -1,0 +1,5191 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "public_ciudad_destino": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public ciudad_destino"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public ciudad_destino": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino.cod_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public ciudad_destino",
+			          "ConceptualProperty": "COD_DESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_DESCARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino.ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public ciudad_destino",
+			          "ConceptualProperty": "CIUDAD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ciudad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public ciudad_destino",
+			          "ConceptualProperty": "DEPARTAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino.public_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public ciudad_destino",
+			          "ConceptualProperty": "public.entregas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.entrega": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public entrega": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_ENTREGA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_ENTREGA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_PRODUCTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod producto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_PRODUCTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_DESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_DESCARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_sucursal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_SUCURSAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod sucursal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_SUCURSAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_empresatransporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_EMPRESATRANSPORTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod empresatransporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_EMPRESATRANSPORTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cod_placa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "COD_PLACA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod placa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_PLACA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.naturaleza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "NATURALEZA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "naturaleza": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TIPO DE ENTREGA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cantidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "CANTIDAD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.fechasalidacargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "FECHASALIDACARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fechasalidacargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "public_entrega.hora_salida_cargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORA_SALIDA_CARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora salida cargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HORA_SALIDA_CARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "public_entrega.fechallegadadescargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "FECHALLEGADADESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fechallegadadescargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "public_entrega.hora_llegada_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORA_LLEGADA_DESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora llegada descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HORA_LLEGADA_DESCARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "public_entrega.horas_viaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORAS_VIAJE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas viaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora viaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "HORAS_VIAJE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.horas_espera_cargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORAS_ESPERA_CARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas espera cargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora espera cargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "HORAS_ESPERA_CARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.horas_cargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORAS_CARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas cargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora cargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "HORAS_CARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.horas_espera_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORAS_ESPERA_DESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas espera descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora espera descargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "HORAS_ESPERA_DESCARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.horas_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "HORAS_DESCARGUE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora descargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "HORAS_DESCARGUE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.valor_pactado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "VALOR_PACTADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor pactado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_PACTADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.valor_pagado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "VALOR_PAGADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor pagado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_PAGADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.cantidad_remesas_viaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "CANTIDAD_REMESAS_VIAJE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad remesas viaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cantidad remesa viaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "CANTIDAD_REMESAS_VIAJE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.public_ciudad_destino": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "public.ciudad_destino"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.ciudad_destino": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.public_empresa_tran": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "public.empresa_trans"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.empresa_tran": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.public_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "public.productos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.producto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.public_sucursale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "public.sucursales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.sucursale": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.public_transportista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "public.transportistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.transportista": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_entrega.franjahoraria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public entregas",
+			          "ConceptualProperty": "Franjahoraria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "franjahoraria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "H & R": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_empresa_tran": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public empresa_trans"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public empresa_tran": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_empresa_tran.cod_empresatransporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public empresa_trans",
+			          "ConceptualProperty": "COD_EMPRESATRANSPORTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod empresatransporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_EMPRESATRANSPORTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_empresa_tran.nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public empresa_trans",
+			          "ConceptualProperty": "NOMBRE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public productos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public producto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_producto.cod_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public productos",
+			          "ConceptualProperty": "COD_PRODUCTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod producto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_PRODUCTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_producto.producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public productos",
+			          "ConceptualProperty": "PRODUCTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "producto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_producto.unid_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public productos",
+			          "ConceptualProperty": "UNID_MEDIDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unid medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UNID_MEDIDA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "U/M PRODUCTO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_sucursale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public sucursales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public sucursale": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_sucursale.cod_sucursal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public sucursales",
+			          "ConceptualProperty": "COD_SUCURSAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod sucursal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_SUCURSAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_sucursale.ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public sucursales",
+			          "ConceptualProperty": "CIUDAD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ciudad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_sucursale.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public sucursales",
+			          "ConceptualProperty": "DEPARTAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SUCURSAL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_sucursale.public_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public sucursales",
+			          "ConceptualProperty": "public.entregas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public.entrega": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_transportista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public transportistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public transportista": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_transportista.cod_placa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public transportistas",
+			          "ConceptualProperty": "COD_PLACA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod placa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_PLACA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_transportista.configuracion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public transportistas",
+			          "ConceptualProperty": "CONFIGURACION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "configuracion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_transportista.idconductor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public transportistas",
+			          "ConceptualProperty": "IDCONDUCTOR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idconductor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario cargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Calendario_cargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario_cargue.date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "ConceptualProperty": "dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.dia_nomb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "ConceptualProperty": "dia_nomb"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia nomb": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia_nomb": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Dia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_cargue.numero_dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_cargue",
+			          "ConceptualProperty": "NumeroDiaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumeroDiaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tabla medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TablaMedidas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.horas_viaje_destino_ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "HorasViajeDestinoCiudad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas viaje destino ciudad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HorasViajeDestinoCiudad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.horas_viaje_destino_depart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "HorasViajeDestinoDepart"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas viaje destino depart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HorasViajeDestinoDepart": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.rentabilidad_h": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "Rentabilidad$/h"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rentabilidad$/h": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rentabilidad$": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rentabilidad $ h": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "h": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rentabilidad dollar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "rentabilidad dollar /h": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "rentabilidad dollar h": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "Rentabilidad $/h": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "R: $/h": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.tiempo_espera_promedio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "TiempoEsperaPromedio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tiempo espera promedio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TiempoEsperaPromedio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.tiempo_promedio_viaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "TiempoPromedioViaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tiempo promedio viaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TiempoPromedioViaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.total_viajesporplaca": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "TotalViajesporplaca"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total viajesporplaca": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalViajesporplaca": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate viajesporplaca": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall viajesporplaca": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.cantidad_viaje_por_hora_viaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "CantidadViajePorHoraViaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad viaje por hora viaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CantidadViajePorHoraViaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Cantidad / H": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.tiempo_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "TiempoTotal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tiempo total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TiempoTotal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tiempo aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tiempo overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.AVG_tiempo_activo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "AVGTiempoActivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AVG tiempo activo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AVGTiempoActivo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average tiempo activo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.AVG_tiempo_espera": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "AVGTiempoEspera"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AVG tiempo espera": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AVGTiempoEspera": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average tiempo espera": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medida.rentabilidad__c": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TablaMedidas",
+			          "ConceptualProperty": "Rentabilidad_$/C"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rentabilidad_$/c": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rentabilidad_$": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rentabilidad _ $ c": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "c": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rentabilidad_ dollar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rentabilidad_ dollar /c": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "rentabilidad _ dollar c": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario descargue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Calendario_descargue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario_descargue.date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "ConceptualProperty": "dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.dia_nomb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "ConceptualProperty": "dia_nomb"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia nomb": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia_nomb": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario_descargue.numero_dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario_descargue",
+			          "ConceptualProperty": "NumeroDiaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumeroDiaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "calendario_descargue_date_me_has_calendario_descargue_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.me"
+			          }
+			        },
+			        "calendario_descargue.date.día": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.me"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.día"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_descargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_trimestre_has_calendario_descargue_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.trimestre"
+			          }
+			        },
+			        "calendario_descargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.me"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_año_has_calendario_descargue_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.año": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.año"
+			          }
+			        },
+			        "calendario_descargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.año"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_descargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_jerarquía_de_fecha_has_calendario_descargue_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_descargue.date.día": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_jerarquía_de_fecha_has_calendario_descargue_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_descargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_jerarquía_de_fecha_has_calendario_descargue_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_descargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_jerarquía_de_fecha_has_calendario_descargue_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_descargue.date.año": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue.date": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date"
+			          }
+			        },
+			        "calendario_descargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue.date"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_me_has_calendario_cargue_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.me"
+			          }
+			        },
+			        "calendario_cargue.date.día": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.me"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.día"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_cargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_trimestre_has_calendario_cargue_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.trimestre"
+			          }
+			        },
+			        "calendario_cargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.me"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_año_has_calendario_cargue_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.año": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.año"
+			          }
+			        },
+			        "calendario_cargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.año"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario_cargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_jerarquía_de_fecha_has_calendario_cargue_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_cargue.date.día": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días1"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_jerarquía_de_fecha_has_calendario_cargue_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_cargue.date.me": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me1"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_jerarquía_de_fecha_has_calendario_cargue_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_cargue.date.trimestre": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_jerarquía_de_fecha_has_calendario_cargue_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario_cargue.date.año": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años1"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue.date": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date"
+			          }
+			        },
+			        "calendario_cargue.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue.date"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_jerarquía_de_fechas1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_calendario_descargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "calendario_descargue": {
+			          "Target": {
+			            "Entity": "calendario_descargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_calendario_descargues"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_descargues_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_calendario_cargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "calendario_cargue": {
+			          "Target": {
+			            "Entity": "calendario_cargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_calendario_cargues"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_cargues_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_transportista1": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_transportista": {
+			          "Target": {
+			            "Entity": "public_transportista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_transportista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_transportistas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_transportista"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_transportistas_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_sucursale1": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_sucursale": {
+			          "Target": {
+			            "Entity": "public_sucursale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_sucursale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_sucursales"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_sucursale"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_sucursales_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_producto1": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_producto": {
+			          "Target": {
+			            "Entity": "public_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_productos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_producto"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_productos_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_empresa_tran1": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_empresa_tran": {
+			          "Target": {
+			            "Entity": "public_empresa_tran"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_empresa_tran"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_empresa_trans"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_empresa_tran"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_empresa_trans_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_ciudad_destino1": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_ciudad_destino"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_ciudad_destinos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_ciudad_destino"
+			            },
+			            "Object": {
+			              "Role": "public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_ciudad_destinos_have_public_entregas"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_has_numero_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue": {
+			          "Target": {
+			            "Entity": "calendario_descargue"
+			          }
+			        },
+			        "calendario_descargue.numero_dia_semana": {
+			          "Target": {
+			            "Entity": "calendario_descargue.numero_dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.numero_dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_descargues_have_numero_dia_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_has_dia_nomb": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue": {
+			          "Target": {
+			            "Entity": "calendario_descargue"
+			          }
+			        },
+			        "calendario_descargue.dia_nomb": {
+			          "Target": {
+			            "Entity": "calendario_descargue.dia_nomb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.dia_nomb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_descargues_have_dia_nombs"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue": {
+			          "Target": {
+			            "Entity": "calendario_descargue"
+			          }
+			        },
+			        "calendario_descargue.dia": {
+			          "Target": {
+			            "Entity": "calendario_descargue.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_descargues_have_dias"
+			        }
+			      ]
+			    },
+			    "calendario_descargue_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_descargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_descargue": {
+			          "Target": {
+			            "Entity": "calendario_descargue"
+			          }
+			        },
+			        "calendario_descargue.date": {
+			          "Target": {
+			            "Entity": "calendario_descargue.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_descargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_descargue.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_descargues_have_dates"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_rentabilidad__c": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.rentabilidad__c": {
+			          "Target": {
+			            "Entity": "tabla_medida.rentabilidad__c"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.rentabilidad__c"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_rentabilidad__c"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_AVG_tiempo_espera": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.AVG_tiempo_espera": {
+			          "Target": {
+			            "Entity": "tabla_medida.AVG_tiempo_espera"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.AVG_tiempo_espera"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_AVG_tiempo_espera"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_AVG_tiempo_activo": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.AVG_tiempo_activo": {
+			          "Target": {
+			            "Entity": "tabla_medida.AVG_tiempo_activo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.AVG_tiempo_activo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_AVG_tiempo_activo"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_tiempo_total": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.tiempo_total": {
+			          "Target": {
+			            "Entity": "tabla_medida.tiempo_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.tiempo_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_tiempo_total"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_cantidad_viaje_por_hora_viaje": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.cantidad_viaje_por_hora_viaje": {
+			          "Target": {
+			            "Entity": "tabla_medida.cantidad_viaje_por_hora_viaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.cantidad_viaje_por_hora_viaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_cantidad_viaje_por_hora_viaje"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_total_viajesporplaca": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.total_viajesporplaca": {
+			          "Target": {
+			            "Entity": "tabla_medida.total_viajesporplaca"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.total_viajesporplaca"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_total_viajesporplaca"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_tiempo_promedio_viaje": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.tiempo_promedio_viaje": {
+			          "Target": {
+			            "Entity": "tabla_medida.tiempo_promedio_viaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.tiempo_promedio_viaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_tiempo_promedio_viaje"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_tiempo_espera_promedio": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.tiempo_espera_promedio": {
+			          "Target": {
+			            "Entity": "tabla_medida.tiempo_espera_promedio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.tiempo_espera_promedio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_tiempo_espera_promedio"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_rentabilidad_h": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.rentabilidad_h": {
+			          "Target": {
+			            "Entity": "tabla_medida.rentabilidad_h"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.rentabilidad_h"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_rentabilidad_h"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_horas_viaje_destino_depart": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.horas_viaje_destino_depart": {
+			          "Target": {
+			            "Entity": "tabla_medida.horas_viaje_destino_depart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.horas_viaje_destino_depart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_viaje_destino_depart"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_tabla_medida_horas_viaje_destino_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "tabla_medida.horas_viaje_destino_ciudad": {
+			          "Target": {
+			            "Entity": "tabla_medida.horas_viaje_destino_ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.horas_viaje_destino_ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_viaje_destino_ciudad"
+			        }
+			      ]
+			    },
+			    "tabla_medida_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "TablaMedidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_medida": {
+			          "Target": {
+			            "Entity": "tabla_medida"
+			          }
+			        },
+			        "tabla_medida.value": {
+			          "Target": {
+			            "Entity": "tabla_medida.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_medida"
+			            },
+			            "Object": {
+			              "Role": "tabla_medida.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_medidas_have_values"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_has_numero_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue": {
+			          "Target": {
+			            "Entity": "calendario_cargue"
+			          }
+			        },
+			        "calendario_cargue.numero_dia_semana": {
+			          "Target": {
+			            "Entity": "calendario_cargue.numero_dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.numero_dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_cargues_have_numero_dia_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_has_dia_nomb": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue": {
+			          "Target": {
+			            "Entity": "calendario_cargue"
+			          }
+			        },
+			        "calendario_cargue.dia_nomb": {
+			          "Target": {
+			            "Entity": "calendario_cargue.dia_nomb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.dia_nomb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_cargues_have_dia_nombs"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue": {
+			          "Target": {
+			            "Entity": "calendario_cargue"
+			          }
+			        },
+			        "calendario_cargue.dia": {
+			          "Target": {
+			            "Entity": "calendario_cargue.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_cargues_have_dias"
+			        }
+			      ]
+			    },
+			    "calendario_cargue_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario_cargue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario_cargue": {
+			          "Target": {
+			            "Entity": "calendario_cargue"
+			          }
+			        },
+			        "calendario_cargue.date": {
+			          "Target": {
+			            "Entity": "calendario_cargue.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario_cargue"
+			            },
+			            "Object": {
+			              "Role": "calendario_cargue.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendario_cargues_have_dates"
+			        }
+			      ]
+			    },
+			    "public_transportista_has_idconductor": {
+			      "Binding": {
+			        "ConceptualEntity": "public transportistas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_transportista": {
+			          "Target": {
+			            "Entity": "public_transportista"
+			          }
+			        },
+			        "public_transportista.idconductor": {
+			          "Target": {
+			            "Entity": "public_transportista.idconductor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_transportista"
+			            },
+			            "Object": {
+			              "Role": "public_transportista.idconductor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_transportistas_have_idconductors"
+			        }
+			      ]
+			    },
+			    "public_transportista_has_configuracion": {
+			      "Binding": {
+			        "ConceptualEntity": "public transportistas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_transportista": {
+			          "Target": {
+			            "Entity": "public_transportista"
+			          }
+			        },
+			        "public_transportista.configuracion": {
+			          "Target": {
+			            "Entity": "public_transportista.configuracion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_transportista"
+			            },
+			            "Object": {
+			              "Role": "public_transportista.configuracion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_transportistas_have_configuracions"
+			        }
+			      ]
+			    },
+			    "public_transportista_has_cod_placa": {
+			      "Binding": {
+			        "ConceptualEntity": "public transportistas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_transportista": {
+			          "Target": {
+			            "Entity": "public_transportista"
+			          }
+			        },
+			        "public_transportista.cod_placa": {
+			          "Target": {
+			            "Entity": "public_transportista.cod_placa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_transportista"
+			            },
+			            "Object": {
+			              "Role": "public_transportista.cod_placa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_transportistas_have_cod_placas"
+			        }
+			      ]
+			    },
+			    "public_sucursale_has_public_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "public sucursales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_sucursale": {
+			          "Target": {
+			            "Entity": "public_sucursale"
+			          }
+			        },
+			        "public_sucursale.public_entrega": {
+			          "Target": {
+			            "Entity": "public_sucursale.public_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_sucursale"
+			            },
+			            "Object": {
+			              "Role": "public_sucursale.public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_sucursales_have_public_entregas1"
+			        }
+			      ]
+			    },
+			    "public_sucursale_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "public sucursales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_sucursale": {
+			          "Target": {
+			            "Entity": "public_sucursale"
+			          }
+			        },
+			        "public_sucursale.departamento": {
+			          "Target": {
+			            "Entity": "public_sucursale.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_sucursale"
+			            },
+			            "Object": {
+			              "Role": "public_sucursale.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_sucursales_have_departamentos"
+			        }
+			      ]
+			    },
+			    "public_sucursale_has_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "public sucursales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_sucursale": {
+			          "Target": {
+			            "Entity": "public_sucursale"
+			          }
+			        },
+			        "public_sucursale.ciudad": {
+			          "Target": {
+			            "Entity": "public_sucursale.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_sucursale"
+			            },
+			            "Object": {
+			              "Role": "public_sucursale.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_sucursales_have_ciudad"
+			        }
+			      ]
+			    },
+			    "public_sucursale_has_cod_sucursal": {
+			      "Binding": {
+			        "ConceptualEntity": "public sucursales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_sucursale": {
+			          "Target": {
+			            "Entity": "public_sucursale"
+			          }
+			        },
+			        "public_sucursale.cod_sucursal": {
+			          "Target": {
+			            "Entity": "public_sucursale.cod_sucursal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_sucursale"
+			            },
+			            "Object": {
+			              "Role": "public_sucursale.cod_sucursal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_sucursales_have_cod_sucursals"
+			        }
+			      ]
+			    },
+			    "public_producto_has_unid_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "public productos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_producto": {
+			          "Target": {
+			            "Entity": "public_producto"
+			          }
+			        },
+			        "public_producto.unid_medida": {
+			          "Target": {
+			            "Entity": "public_producto.unid_medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_producto"
+			            },
+			            "Object": {
+			              "Role": "public_producto.unid_medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_productos_have_unid_medidas"
+			        }
+			      ]
+			    },
+			    "public_producto_has_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "public productos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_producto": {
+			          "Target": {
+			            "Entity": "public_producto"
+			          }
+			        },
+			        "public_producto.producto": {
+			          "Target": {
+			            "Entity": "public_producto.producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_producto"
+			            },
+			            "Object": {
+			              "Role": "public_producto.producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_productos_have_productos"
+			        }
+			      ]
+			    },
+			    "public_producto_has_cod_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "public productos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_producto": {
+			          "Target": {
+			            "Entity": "public_producto"
+			          }
+			        },
+			        "public_producto.cod_producto": {
+			          "Target": {
+			            "Entity": "public_producto.cod_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_producto"
+			            },
+			            "Object": {
+			              "Role": "public_producto.cod_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_productos_have_cod_productos"
+			        }
+			      ]
+			    },
+			    "public_empresa_tran_has_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "public empresa_trans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_empresa_tran": {
+			          "Target": {
+			            "Entity": "public_empresa_tran"
+			          }
+			        },
+			        "public_empresa_tran.nombre": {
+			          "Target": {
+			            "Entity": "public_empresa_tran.nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_empresa_tran"
+			            },
+			            "Object": {
+			              "Role": "public_empresa_tran.nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_empresa_trans_have_nombres"
+			        }
+			      ]
+			    },
+			    "public_empresa_tran_has_cod_empresatransporte": {
+			      "Binding": {
+			        "ConceptualEntity": "public empresa_trans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_empresa_tran": {
+			          "Target": {
+			            "Entity": "public_empresa_tran"
+			          }
+			        },
+			        "public_empresa_tran.cod_empresatransporte": {
+			          "Target": {
+			            "Entity": "public_empresa_tran.cod_empresatransporte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_empresa_tran"
+			            },
+			            "Object": {
+			              "Role": "public_empresa_tran.cod_empresatransporte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_empresa_trans_have_cod_empresatransportes"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_franjahoraria": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.franjahoraria": {
+			          "Target": {
+			            "Entity": "public_entrega.franjahoraria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.franjahoraria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_franjahorarias"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_transportista": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.public_transportista": {
+			          "Target": {
+			            "Entity": "public_entrega.public_transportista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.public_transportista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_transportistas1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_sucursale": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.public_sucursale": {
+			          "Target": {
+			            "Entity": "public_entrega.public_sucursale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.public_sucursale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_sucursales1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.public_producto": {
+			          "Target": {
+			            "Entity": "public_entrega.public_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.public_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_productos1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_empresa_tran": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.public_empresa_tran": {
+			          "Target": {
+			            "Entity": "public_entrega.public_empresa_tran"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.public_empresa_tran"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_empresa_trans1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_public_ciudad_destino": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_entrega.public_ciudad_destino"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.public_ciudad_destino"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_public_ciudad_destinos1"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_cantidad_remesas_viaje": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.cantidad_remesas_viaje": {
+			          "Target": {
+			            "Entity": "public_entrega.cantidad_remesas_viaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.cantidad_remesas_viaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_cantidad_remesas_viajes"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_valor_pagado": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.valor_pagado": {
+			          "Target": {
+			            "Entity": "public_entrega.valor_pagado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.valor_pagado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_valor_pagados"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_valor_pactado": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.valor_pactado": {
+			          "Target": {
+			            "Entity": "public_entrega.valor_pactado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.valor_pactado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_valor_pactados"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_horas_descargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.horas_descargue": {
+			          "Target": {
+			            "Entity": "public_entrega.horas_descargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.horas_descargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_descargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_horas_espera_descargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.horas_espera_descargue": {
+			          "Target": {
+			            "Entity": "public_entrega.horas_espera_descargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.horas_espera_descargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_espera_descargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_horas_cargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.horas_cargue": {
+			          "Target": {
+			            "Entity": "public_entrega.horas_cargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.horas_cargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_cargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_horas_espera_cargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.horas_espera_cargue": {
+			          "Target": {
+			            "Entity": "public_entrega.horas_espera_cargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.horas_espera_cargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_espera_cargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_horas_viaje": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.horas_viaje": {
+			          "Target": {
+			            "Entity": "public_entrega.horas_viaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.horas_viaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_horas_viajes"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_hora_llegada_descargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.hora_llegada_descargue": {
+			          "Target": {
+			            "Entity": "public_entrega.hora_llegada_descargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.hora_llegada_descargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_hora_llegada_descargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_fechallegadadescargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.fechallegadadescargue": {
+			          "Target": {
+			            "Entity": "public_entrega.fechallegadadescargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.fechallegadadescargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_fechallegadadescargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_hora_salida_cargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.hora_salida_cargue": {
+			          "Target": {
+			            "Entity": "public_entrega.hora_salida_cargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.hora_salida_cargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_hora_salida_cargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_fechasalidacargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.fechasalidacargue": {
+			          "Target": {
+			            "Entity": "public_entrega.fechasalidacargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.fechasalidacargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_fechasalidacargues"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_cantidad": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.cantidad": {
+			          "Target": {
+			            "Entity": "public_entrega.cantidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.cantidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_cantidads"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_naturaleza": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.naturaleza": {
+			          "Target": {
+			            "Entity": "public_entrega.naturaleza"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.naturaleza"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_naturalezas"
+			        }
+			      ]
+			    },
+			    "public_entrega_has_cod_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "public entregas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega"
+			          }
+			        },
+			        "public_entrega.cod_entrega": {
+			          "Target": {
+			            "Entity": "public_entrega.cod_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_entrega"
+			            },
+			            "Object": {
+			              "Role": "public_entrega.cod_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_entregas_have_cod_entregas"
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino_has_public_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "public ciudad_destino"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino"
+			          }
+			        },
+			        "public_ciudad_destino.public_entrega": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino.public_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_ciudad_destino"
+			            },
+			            "Object": {
+			              "Role": "public_ciudad_destino.public_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_ciudad_destinos_have_public_entregas1"
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "public ciudad_destino"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino"
+			          }
+			        },
+			        "public_ciudad_destino.departamento": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_ciudad_destino"
+			            },
+			            "Object": {
+			              "Role": "public_ciudad_destino.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_ciudad_destinos_have_departamentos"
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino_has_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "public ciudad_destino"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino"
+			          }
+			        },
+			        "public_ciudad_destino.ciudad": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_ciudad_destino"
+			            },
+			            "Object": {
+			              "Role": "public_ciudad_destino.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_ciudad_destinos_have_ciudad"
+			        }
+			      ]
+			    },
+			    "public_ciudad_destino_has_cod_descargue": {
+			      "Binding": {
+			        "ConceptualEntity": "public ciudad_destino"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_ciudad_destino": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino"
+			          }
+			        },
+			        "public_ciudad_destino.cod_descargue": {
+			          "Target": {
+			            "Entity": "public_ciudad_destino.cod_descargue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_ciudad_destino"
+			            },
+			            "Object": {
+			              "Role": "public_ciudad_destino.cod_descargue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_ciudad_destinos_have_cod_descargues"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

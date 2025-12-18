@@ -1,0 +1,118 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "0276950d2de84602d623",
+  "position": {
+    "x": 903.484726091759,
+    "y": 513.19012842282268,
+    "z": 10001,
+    "height": 194.47204866549072,
+    "width": 360.58359023393069,
+    "tabOrder": 10001
+  },
+  "visual": {
+    "visualType": "treemap",
+    "query": {
+      "queryState": {
+        "Group": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendario_cargue"
+                    }
+                  },
+                  "Property": "dia_nomb"
+                }
+              },
+              "queryRef": "Calendario_cargue.dia_nomb",
+              "nativeQueryRef": "dia_nomb",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "AVGTiempoActivo"
+                }
+              },
+              "queryRef": "TablaMedidas.AVGTiempoActivo",
+              "nativeQueryRef": "AVGTiempoActivo",
+              "format": "G"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "TablaMedidas"
+                  }
+                },
+                "Property": "AVGTiempoActivo"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {}
+        }
+      ],
+      "legend": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Tiempo de Actividad (h) por dia'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

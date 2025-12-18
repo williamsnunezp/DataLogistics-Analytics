@@ -1,0 +1,50 @@
+table Calendario_cargue
+	lineageTag: cf1c3990-a065-4f2e-989e-a1083163e5a2
+
+	column Date
+		formatString: General Date
+		lineageTag: 22a4fe2d-80f9-4111-95d5-b14b34ff97cb
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variación
+			isDefault
+			relationship: 67906ade-a540-4f68-9551-f4f95e82347e
+			defaultHierarchy: LocalDateTable_01018fa5-7b79-4342-b386-352da57c4099.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia = ```
+			DAY(Calendario_cargue[Date]) 
+			```
+		formatString: 0
+		lineageTag: 98ec730e-6428-4c25-8146-2f59da9330a8
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia_nomb = FORMAT(Calendario_cargue[Date],"ddd")
+		lineageTag: ef6e76a5-3ca9-40c0-9b46-419adae50214
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column NumeroDiaSemana = WEEKDAY ('Calendario_cargue'[Date], 2 )
+		formatString: 0
+		lineageTag: 33d0fa76-07ef-48bd-853e-b9d651c918d3
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario_cargue = calculated
+		mode: import
+		source =
+				
+				CALENDAR (
+				    MIN ( 'public entregas'[FECHASALIDACARGUE]),
+				    MAX ( 'public entregas'[FECHASALIDACARGUE])
+				)
+
+	annotation PBI_Id = 279dc00f16114cf1a7a6de9e407eeff5
+

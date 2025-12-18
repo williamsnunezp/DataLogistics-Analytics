@@ -1,0 +1,29 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-PE
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["public ciudad_destino","public entregas","public empresa_trans","public productos","public sucursales","public transportistas"]
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table 'public ciudad_destino'
+ref table 'public entregas'
+ref table 'public empresa_trans'
+ref table 'public productos'
+ref table 'public sucursales'
+ref table 'public transportistas'
+ref table Calendario_cargue
+ref table TablaMedidas
+ref table DateTableTemplate_46bd5c09-4e1d-4788-8dde-bdb8ff30abc0
+ref table LocalDateTable_01018fa5-7b79-4342-b386-352da57c4099
+ref table Calendario_descargue
+ref table LocalDateTable_0bcf703b-0857-4a33-a1e4-ef201919026b
+
+ref cultureInfo es-ES
+

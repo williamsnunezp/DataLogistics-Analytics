@@ -1,0 +1,271 @@
+table 'public entregas'
+	lineageTag: 6bbcf295-2baf-4691-b21d-d6fcbce74913
+
+	column COD_ENTREGA
+		dataType: int64
+		formatString: 0
+		lineageTag: ba216ed9-407a-428c-885c-db876c3b15d2
+		summarizeBy: sum
+		sourceColumn: COD_ENTREGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_PRODUCTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e6aff21-d381-443c-bdb1-aff20f88ae47
+		summarizeBy: none
+		sourceColumn: COD_PRODUCTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_DESCARGUE
+		dataType: int64
+		formatString: 0
+		lineageTag: 3329753d-595b-437f-a3e2-59a66fd44f59
+		summarizeBy: none
+		sourceColumn: COD_DESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_SUCURSAL
+		dataType: int64
+		formatString: 0
+		lineageTag: 631cf802-a2be-45f0-85a5-d6063daa78b7
+		summarizeBy: none
+		sourceColumn: COD_SUCURSAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_EMPRESATRANSPORTE
+		dataType: int64
+		formatString: 0
+		lineageTag: 1c12e304-5589-44dd-9b1f-e12cf8dc5a30
+		summarizeBy: none
+		sourceColumn: COD_EMPRESATRANSPORTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_PLACA
+		dataType: int64
+		formatString: 0
+		lineageTag: 7520af47-a91e-40c1-a180-cfeba1e55d14
+		summarizeBy: none
+		sourceColumn: COD_PLACA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NATURALEZA
+		dataType: string
+		lineageTag: 127fd444-e0b1-49ab-b48f-7201e32896a4
+		summarizeBy: none
+		sourceColumn: NATURALEZA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CANTIDAD
+		dataType: double
+		lineageTag: 4420880f-849a-46e7-b453-1e3bae58c738
+		summarizeBy: sum
+		sourceColumn: CANTIDAD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FECHASALIDACARGUE
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c6929bd4-265f-4ef0-8270-3cf8a5331396
+		summarizeBy: none
+		sourceColumn: FECHASALIDACARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column HORA_SALIDA_CARGUE
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: b041562a-3179-4811-9d7d-42f96a22a160
+		summarizeBy: none
+		sourceColumn: HORA_SALIDA_CARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column FECHALLEGADADESCARGUE
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f4ee9555-f4ae-4297-b4ea-e6c18cdd25f2
+		summarizeBy: none
+		sourceColumn: FECHALLEGADADESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column HORA_LLEGADA_DESCARGUE
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: f32aacaf-c874-4707-a735-c2796f1cfd06
+		summarizeBy: none
+		sourceColumn: HORA_LLEGADA_DESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column HORAS_VIAJE
+		dataType: double
+		lineageTag: 8fab0675-3838-45ef-868e-f07fcffb794b
+		summarizeBy: sum
+		sourceColumn: HORAS_VIAJE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HORAS_ESPERA_CARGUE
+		dataType: double
+		lineageTag: ce2bcdeb-fb3b-4b85-a92b-85c8fec6f6dc
+		summarizeBy: sum
+		sourceColumn: HORAS_ESPERA_CARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HORAS_CARGUE
+		dataType: double
+		lineageTag: e4882283-676d-44db-959c-bf067005cf5e
+		summarizeBy: sum
+		sourceColumn: HORAS_CARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HORAS_ESPERA_DESCARGUE
+		dataType: double
+		lineageTag: 8c40efab-00bc-4f02-a236-ed36496410f4
+		summarizeBy: sum
+		sourceColumn: HORAS_ESPERA_DESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HORAS_DESCARGUE
+		dataType: double
+		lineageTag: 9b7bee6c-587a-4a36-90d3-e80228756397
+		summarizeBy: sum
+		sourceColumn: HORAS_DESCARGUE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VALOR_PACTADO
+		dataType: double
+		lineageTag: 3bf63318-ca1b-46a1-a880-1af284296e58
+		summarizeBy: sum
+		sourceColumn: VALOR_PACTADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VALOR_PAGADO
+		dataType: double
+		lineageTag: 0e8dc740-b0a0-4d21-b45f-689bdb8b1f8a
+		summarizeBy: sum
+		sourceColumn: VALOR_PAGADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CANTIDAD_REMESAS_VIAJE
+		dataType: int64
+		formatString: 0
+		lineageTag: a164e298-9fd7-40b9-9886-3c94397d5af4
+		summarizeBy: sum
+		sourceColumn: CANTIDAD_REMESAS_VIAJE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.ciudad_destino'
+		dataType: string
+		lineageTag: 4d6bf517-5a87-4482-8190-083eb653d3c5
+		summarizeBy: none
+		sourceColumn: public.ciudad_destino
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.empresa_trans'
+		dataType: string
+		lineageTag: 8fca693f-ee2d-4a56-84d4-4e059756114e
+		summarizeBy: none
+		sourceColumn: public.empresa_trans
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.productos'
+		dataType: string
+		lineageTag: e9d7c933-fb97-4f78-b5d4-a01d1e525747
+		summarizeBy: none
+		sourceColumn: public.productos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.sucursales'
+		dataType: string
+		lineageTag: 1379958d-835d-486c-87fc-9041de3017cc
+		summarizeBy: none
+		sourceColumn: public.sucursales
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'public.transportistas'
+		dataType: string
+		lineageTag: c417d891-334f-4105-bcf1-a8f87ce8b83d
+		summarizeBy: none
+		sourceColumn: public.transportistas
+
+		annotation SummarizationSetBy = Automatic
+
+	column Franjahoraria =
+			
+			SWITCH (
+			    TRUE(),
+			    HOUR ( 'public entregas'[HORA_SALIDA_CARGUE] ) >= 6 && HOUR ( 'public entregas'[HORA_SALIDA_CARGUE] ) < 12, "Mañana",
+			    HOUR ( 'public entregas'[HORA_SALIDA_CARGUE] ) >= 12 && HOUR ( 'public entregas'[HORA_SALIDA_CARGUE] ) < 18, "Tarde",
+			    HOUR ( 'public entregas'[HORA_SALIDA_CARGUE] ) >= 18 && HOUR ('public entregas'[HORA_SALIDA_CARGUE] ) < 24, "Noche",
+			    "Madrugada"
+			)
+		lineageTag: 1c2af26f-be17-4e88-b2d0-f38ec7ca5da4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'public entregas' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("127.0.0.1", "logistics_db"),
+				    public_entregas = Origen{[Schema="public",Item="entregas"]}[Data],
+				    #"Errores quitados" = Table.RemoveRowsWithErrors(public_entregas, {"FECHASALIDACARGUE", "HORA_SALIDA_CARGUE", "FECHALLEGADADESCARGUE", "HORA_LLEGADA_DESCARGUE"}),
+				    #"Valor absoluto calculado" = Table.TransformColumns(#"Errores quitados",{{"HORAS_ESPERA_CARGUE", Number.Abs, type number}, {"HORAS_CARGUE", Number.Abs, type number}, {"HORAS_ESPERA_DESCARGUE", Number.Abs, type number}, {"HORAS_DESCARGUE", Number.Abs, type number}}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Valor absoluto calculado",{{"FECHASALIDACARGUE", type text}, {"HORA_SALIDA_CARGUE", type text}, {"HORA_LLEGADA_DESCARGUE", type text}, {"FECHALLEGADADESCARGUE", type text}}),
+				    #"Ejecutar script de Python" = Python.Execute("# 'dataset' contiene los datos de entrada para este script#(lf)import pandas as pd#(lf)import os, matplotlib#(lf)#(lf)# --- Conversión de columnas de fecha ---#(lf)dataset['FECHASALIDACARGUE'] = pd.to_datetime(#(lf)    dataset['FECHASALIDACARGUE'], dayfirst=True, errors='coerce'#(lf))#(lf)dataset['FECHALLEGADADESCARGUE'] = pd.to_datetime(#(lf)    dataset['FECHALLEGADADESCARGUE'], dayfirst=True, errors='coerce'#(lf))#(lf)#(lf)# --- Conversión de columnas de hora ---#(lf)# Primero convertir a texto para evitar errores de OleDb.Time#(lf)# dataset['HORA_SALIDA_CARGUE'] = dataset['HORA_SALIDA_CARGUE'].astype(str)#(lf)# dataset['HORA_LLEGADA_DESCARGUE'] = dataset['HORA_LLEGADA_DESCARGUE'].astype(str)#(lf)#(lf)# Parsear como hora#(lf)dataset['HORA_SALIDA_CARGUE'] = pd.to_datetime(#(lf)    dataset['HORA_SALIDA_CARGUE'], errors='coerce'#(lf)).dt.time#(lf)dataset['HORA_LLEGADA_DESCARGUE'] = pd.to_datetime(#(lf)    dataset['HORA_LLEGADA_DESCARGUE'], errors='coerce'#(lf)).dt.time#(lf)#(lf)# --- 1. Eliminar registros inválidos (fecha llegada < fecha salida) ---#(lf)dataset = dataset[dataset['FECHALLEGADADESCARGUE'] >= dataset['FECHASALIDACARGUE']]#(lf)#(lf)# --- 2. Construir datetime completo para salida y llegada ---#(lf)dataset['SALIDA'] = pd.to_datetime(#(lf)    dataset['FECHASALIDACARGUE'].astype(str) + "" "" + dataset['HORA_SALIDA_CARGUE'].astype(str),#(lf)    errors='coerce'#(lf))#(lf)dataset['LLEGADA'] = pd.to_datetime(#(lf)    dataset['FECHALLEGADADESCARGUE'].astype(str) + "" "" + dataset['HORA_LLEGADA_DESCARGUE'].astype(str),#(lf)    errors='coerce'#(lf))#(lf)#(lf)# --- 3. Calcular horas de viaje ---#(lf)dataset['HORAS_VIAJE'] = (dataset['LLEGADA'] - dataset['SALIDA']).dt.total_seconds() / 3600#(lf)#(lf)# --- 4. Redondear horas de viaje a enteros ---#(lf)dataset['HORAS_VIAJE'] = dataset['HORAS_VIAJE'].round(2).astype(float)#(lf)#(lf)# --- 5. Eliminar columnas auxiliares ---#(lf)dataset = dataset.drop(columns=['SALIDA', 'LLEGADA'])",[dataset=#"Tipo cambiado"]),
+				    dataset = #"Ejecutar script de Python"{[Name="dataset"]}[Value],
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(dataset,{{"COD_ENTREGA", Int64.Type}, {"COD_PRODUCTO", Int64.Type}, {"COD_DESCARGUE", Int64.Type}, {"COD_SUCURSAL", Int64.Type}, {"COD_EMPRESATRANSPORTE", Int64.Type}, {"COD_PLACA", Int64.Type}, {"NATURALEZA", type text}, {"CANTIDAD", type number}, {"FECHASALIDACARGUE", type date}, {"HORA_SALIDA_CARGUE", type time}, {"FECHALLEGADADESCARGUE", type date}, {"HORA_LLEGADA_DESCARGUE", type time}, {"HORAS_VIAJE", type number}, {"HORAS_ESPERA_CARGUE", type number}, {"HORAS_CARGUE", type number}, {"HORAS_ESPERA_DESCARGUE", type number}, {"HORAS_DESCARGUE", type number}, {"VALOR_PACTADO", type number}, {"VALOR_PAGADO", type number}, {"CANTIDAD_REMESAS_VIAJE", Int64.Type}, {"public.ciudad_destino", type text}, {"public.empresa_trans", type text}, {"public.productos", type text}, {"public.sucursales", type text}, {"public.transportistas", type text}})
+				in
+				    #"Tipo cambiado1"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

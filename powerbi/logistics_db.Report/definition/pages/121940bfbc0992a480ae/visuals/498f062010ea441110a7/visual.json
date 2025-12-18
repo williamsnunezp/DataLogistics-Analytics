@@ -1,0 +1,292 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "498f062010ea441110a7",
+  "position": {
+    "x": 449.06945981696947,
+    "y": 318.45368895607805,
+    "z": 6000,
+    "height": 389.35939313770484,
+    "width": 426.67818481224521,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "lineClusteredColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendario_cargue"
+                    }
+                  },
+                  "Property": "dia_nomb"
+                }
+              },
+              "queryRef": "Calendario_cargue.dia_nomb",
+              "nativeQueryRef": "Dia",
+              "active": true,
+              "displayName": "Dia"
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "public entregas"
+                    }
+                  },
+                  "Property": "Franjahoraria"
+                }
+              },
+              "queryRef": "public entregas.Franjahoraria",
+              "nativeQueryRef": "H & R",
+              "displayName": "H & R"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "public entregas"
+                        }
+                      },
+                      "Property": "CANTIDAD_REMESAS_VIAJE"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(public entregas.CANTIDAD_REMESAS_VIAJE)",
+              "nativeQueryRef": "Total cantidad de remesas ",
+              "displayName": "Total cantidad de remesas "
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "Rentabilidad$/h"
+                }
+              },
+              "queryRef": "TablaMedidas.Rentabilidad$/h",
+              "nativeQueryRef": "R: $/h",
+              "displayName": "R: $/h"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "public entregas"
+                      }
+                    },
+                    "Property": "CANTIDAD_REMESAS_VIAJE"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          },
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "public entregas"
+                  }
+                },
+                "Property": "Franjahoraria"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "legend": [
+        {
+          "properties": {
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BottomCenter'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "logAxisScale": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "invertAxis": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Remesas por dia/horario y rentabilidad'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "2e27d1f0eb722d3e22ea",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Calendario_cargue"
+              }
+            },
+            "Property": "dia_nomb"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c5dec98a00a5762a552d",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "public entregas"
+                  }
+                },
+                "Property": "CANTIDAD_REMESAS_VIAJE"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "aa394816645da0ea0b08",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "TablaMedidas"
+              }
+            },
+            "Property": "Rentabilidad$/h"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "2444d4c8390a236d7aeb",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "public entregas"
+              }
+            },
+            "Property": "Franjahoraria"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

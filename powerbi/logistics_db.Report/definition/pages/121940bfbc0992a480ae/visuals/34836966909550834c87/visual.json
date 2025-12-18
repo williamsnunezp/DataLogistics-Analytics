@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "34836966909550834c87",
+  "position": {
+    "x": 12.9587616399848,
+    "y": 217.05601221886414,
+    "z": 7000,
+    "height": 79.721286907102126,
+    "width": 194.51994005332921,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "public entregas"
+                    }
+                  },
+                  "Property": "NATURALEZA"
+                }
+              },
+              "queryRef": "public entregas.NATURALEZA",
+              "nativeQueryRef": "TIPO DE ENTREGA",
+              "active": true,
+              "displayName": "TIPO DE ENTREGA"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "952ca08115ab1832e1bb",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "public entregas"
+              }
+            },
+            "Property": "NATURALEZA"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

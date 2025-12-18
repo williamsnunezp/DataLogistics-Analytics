@@ -1,0 +1,40 @@
+table 'public transportistas'
+	lineageTag: 449e9873-70a3-4ecf-ad9c-baee849d642d
+
+	column COD_PLACA
+		dataType: int64
+		formatString: 0
+		lineageTag: afe38d0f-eed6-4ff0-a253-1f8922414efc
+		summarizeBy: none
+		sourceColumn: COD_PLACA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONFIGURACION
+		dataType: string
+		lineageTag: ea9930ac-1e09-4e1e-a929-3cf94841f548
+		summarizeBy: none
+		sourceColumn: CONFIGURACION
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDCONDUCTOR
+		dataType: int64
+		formatString: 0
+		lineageTag: 9abdba44-6b2e-40eb-9cf4-bd4b477733b1
+		summarizeBy: none
+		sourceColumn: IDCONDUCTOR
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'public transportistas' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("127.0.0.1", "logistics_db"),
+				    public_transportistas = Origen{[Schema="public",Item="transportistas"]}[Data]
+				in
+				    public_transportistas
+
+	annotation PBI_ResultType = Table
+

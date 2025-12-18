@@ -1,0 +1,48 @@
+relationship 8b2cb614-da25-42bf-9e69-9e9d34b9f6ea
+	fromColumn: 'public entregas'.COD_DESCARGUE
+	toColumn: 'public ciudad_destino'.COD_DESCARGUE
+
+	annotation PBI_IsFromSource = FS
+
+relationship 0e26245f-b0ee-45b7-be14-b9214cbca9e9
+	fromColumn: 'public entregas'.COD_EMPRESATRANSPORTE
+	toColumn: 'public empresa_trans'.COD_EMPRESATRANSPORTE
+
+	annotation PBI_IsFromSource = FS
+
+relationship 5e33275c-4bae-4082-8852-9394161106bf
+	fromColumn: 'public entregas'.COD_PRODUCTO
+	toColumn: 'public productos'.COD_PRODUCTO
+
+	annotation PBI_IsFromSource = FS
+
+relationship f2f55817-b427-4f99-8fac-863d46e4c63d
+	fromColumn: 'public entregas'.COD_SUCURSAL
+	toColumn: 'public sucursales'.COD_SUCURSAL
+
+	annotation PBI_IsFromSource = FS
+
+relationship e06d21a9-9294-4b0c-9a0a-de61213a8043
+	fromColumn: 'public entregas'.COD_PLACA
+	toColumn: 'public transportistas'.COD_PLACA
+
+	annotation PBI_IsFromSource = FS
+
+relationship 67906ade-a540-4f68-9551-f4f95e82347e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendario_cargue.Date
+	toColumn: LocalDateTable_01018fa5-7b79-4342-b386-352da57c4099.Date
+
+relationship 06f48155-4fb1-55a7-5917-35956e8465dc
+	fromColumn: 'public entregas'.FECHASALIDACARGUE
+	toColumn: Calendario_cargue.Date
+
+relationship 1682f96f-ed3f-4ddd-a343-3a89a5f9aefd
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendario_descargue.Date
+	toColumn: LocalDateTable_0bcf703b-0857-4a33-a1e4-ef201919026b.Date
+
+relationship 5599671f-13a2-1575-3a1f-59c7c0ccecb7
+	fromColumn: 'public entregas'.FECHALLEGADADESCARGUE
+	toColumn: Calendario_descargue.Date
+

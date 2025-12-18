@@ -1,0 +1,68 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "4776aa60c19054c4c6cd",
+  "position": {
+    "x": 245.5783521590767,
+    "y": 82.7603242503236,
+    "z": 2000,
+    "height": 101.39677344913672,
+    "width": 273.255711498521,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "NativeVisualCalculation": {
+                  "Language": "dax",
+                  "Expression": "BLANK()",
+                  "Name": "Suma en ejecución"
+                }
+              },
+              "queryRef": "select",
+              "nativeQueryRef": "Suma en ejecución",
+              "hidden": true,
+              "format": "\\$ #,0.0;-\\$ #,0.0;\\$ #,0.0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "Rentabilidad$/h"
+                }
+              },
+              "queryRef": "TablaMedidas.Rentabilidad",
+              "nativeQueryRef": "Rentabilidad $/h",
+              "displayName": "Rentabilidad $/h",
+              "format": "\\$ #,0.00;-\\$ #,0.00;\\$ #,0.00"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "NativeVisualCalculation": {
+                "Language": "dax",
+                "Expression": "BLANK()",
+                "Name": "Suma en ejecución"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

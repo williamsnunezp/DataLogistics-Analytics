@@ -1,0 +1,10 @@
+// Le damos la bienvenida a la vista de consultas DAX. Obtenga más información sobre las consultas DAX en https://aka.ms/dax-queries.
+// Haga clic con el botón derecho en tablas, columnas o medidas en el panel de datos para acceder a consultas rápidas o pida ayuda a Copilot para escribir DAX.
+
+// Seleccione "Ejecutar" para probar esta consulta DAX de ejemplo.
+EVALUATE
+TOPN(15,
+    SUMMARIZECOLUMNS(
+        'public ciudad_destino'[Departamento],
+        "TotalPagado", SUM('public entregas'[VALOR_PAGADO]))
+)

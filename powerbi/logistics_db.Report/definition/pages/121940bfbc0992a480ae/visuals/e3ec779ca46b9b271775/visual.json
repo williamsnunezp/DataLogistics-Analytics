@@ -1,0 +1,84 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "e3ec779ca46b9b271775",
+  "position": {
+    "x": 824.51066829494857,
+    "y": 81.936535946487368,
+    "z": 4000,
+    "height": 100.44882150294869,
+    "width": 202.49206874403941,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "NativeVisualCalculation": {
+                  "Language": "dax",
+                  "Expression": "BLANK()",
+                  "Name": "Suma en ejecución"
+                }
+              },
+              "queryRef": "select",
+              "nativeQueryRef": "Suma en ejecución",
+              "hidden": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TablaMedidas"
+                    }
+                  },
+                  "Property": "CantidadViajePorHoraViaje"
+                }
+              },
+              "queryRef": "TablaMedidas.EficienciaPorDestino",
+              "nativeQueryRef": "Cantidad / H",
+              "displayName": "Cantidad / H"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "NativeVisualCalculation": {
+                "Language": "dax",
+                "Expression": "BLANK()",
+                "Name": "Suma en ejecución"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "796e1044e99c66ed6250",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "TablaMedidas"
+              }
+            },
+            "Property": "CantidadViajePorHoraViaje"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}
