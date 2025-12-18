@@ -104,6 +104,12 @@ Tareas previstas:
 ```
 Data-Logistics-Analytics-Pipeline/
 │
+├── .devcontainer/
+│   └── Configuración de contenedor (PostgreSQL) de desarrollo
+│
+├── .vscode/
+│   └── Configuración de Visual Studio Code
+│
 ├── data/
 │   └── Dataset limpio y dividido (Excel)
 │
@@ -117,7 +123,7 @@ Data-Logistics-Analytics-Pipeline/
 │   └── Imágenes de documentación
 │
 ├── powerbi/
-│   └── Archivo Power BI (.pbix)
+│   └── Proyecto Power BI (.pbib)
 │
 └── README.md
     └── Documentación principal
